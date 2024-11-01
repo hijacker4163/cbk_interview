@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5692D1C4-F191-4352-9E97-706277C99421"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76FDC912-5EC6-4DE7-BAC6-015DADD68C05"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KOKO_Friend/UIView+CollapsibleView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "225"
+            endingLineNumber = "225"
+            landmarkName = "-addCollapsibleViewWithItems:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B81DEBF4-807D-4EDC-9428-8CCDA147BE8A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KOKO_Friend/Model/FriendViewModel.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "-addToDataArrayIfNotExists:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "777BE818-8A8C-4826-9A6F-CE882154CE89"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KOKO_Friend/Model/FriendViewModel.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "-fetchDataWithCompletion:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "777BE818-8A8C-4826-9A6F-CE882154CE89 - be88ab1734ef6d75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FriendViewModel fetchDataWithCompletion:]"
+                  moduleName = "KOKO_Friend"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MarsLin/Documents/KOKO_Friend/KOKO_Friend/Model/FriendViewModel.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "777BE818-8A8C-4826-9A6F-CE882154CE89 - 3027f896cb3253c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__43-[FriendViewModel fetchDataWithCompletion:]_block_invoke"
+                  moduleName = "KOKO_Friend"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MarsLin/Documents/KOKO_Friend/KOKO_Friend/Model/FriendViewModel.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,1117 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C811EB603FCFF7AFAC9353AEED04DD6 /* KafkaFootRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFBEA69962500C301EFD19F1C31D69C /* KafkaFootRefreshControl.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		115ACCE253A886181B55773DDC70D6ED /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EEB4912EEE27BCEFD0DD26A839AC6D3 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		181B2691FF506F26F7F71F711C724B81 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4812A7E3CE37A3258EA8347B97102DD4 /* MASConstraintMaker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		186C10CA854A809E355B67E5B42CD597 /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E9A55487A07B681E7B6C4D19AA85DD /* Toast-dummy.m */; };
+		19C2DF04EDC613C52E2A964AC0403A23 /* KafkaRingIndicatorHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A335F82C97CF5161C3D969D650B0DE8 /* KafkaRingIndicatorHeader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1E8303E0135CFBDE24C1C30EE4959B1C /* KafkaRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3BB14E756AFF656DECEBF45559E617 /* KafkaRefresh-dummy.m */; };
+		20A8ED7856056168D597D1EB9580078D /* KafkaReplicatorFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95469F594D42CFD5A16BCC42A74CF33C /* KafkaReplicatorFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		20E2F8001CC8A41A0E1B50694BE7875D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F69FDAFF1DC2AF3CC4F00545CC3DF /* NSArray+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2A464007A676FFE499A32A79F3AFDC35 /* KafkaNativeHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454A0BF2A8A7EC4A65CB734FE3E546B /* KafkaNativeHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2A4A4DA52656A30DBF59958B68F44C4A /* KafkaArcLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F68F15221F5C28E7C4E20FC582CF349B /* KafkaArcLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D6C7706F5638BD982C7856CC3CA696A /* KafkaArrowHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB0D029BDB179AB3408FDC2A5B5558E /* KafkaArrowHeader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2DEB85A0A313F417A3C2DFC264614115 /* KafkaCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D5A6A38B801F31E7774880B2318439 /* KafkaCategories.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2E5F3B41BD51ACE4EE3B422BB67E51DF /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AA46CAB598D5E0B957D3A590A7748D /* MASViewAttribute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		31064475EC704EC31BC3E2DE0DAFC72C /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2E5ECD3E9FC55DAC23C9350878EB7F /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		31E653C76218BDE3A2D2392B30CB1BAB /* KafkaAnimatableProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC3ECB8533CF76A4669C9456DD3E9A7 /* KafkaAnimatableProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3430321D06CBCF49F5A7DF6A70D9BB91 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B0B719C0CBC3176873E8474521E276 /* Masonry-dummy.m */; };
+		34D26B819A8ED600DE1B3C94E5A05EB3 /* Pods-KOKO_Friend-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA711C59D86476531F906AA68FE66DD5 /* Pods-KOKO_Friend-dummy.m */; };
+		350A16C4803F785CED9BDA5FBACB63FA /* KafkaRefreshProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E2BAC05ECFBB60E6A5153DC5395023 /* KafkaRefreshProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		390E8375B19FF12764C5AA730AF0F0F4 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D2088E93B4D50C82303C5815A0885F /* View+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		42947699890A199B08A896144A878D80 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 05565EAA1D926479FBB3023BE767694C /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		44704850C26C28F4992FCF94DD4FB0B0 /* KafkaRefreshDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = D0826218F04EB006A3BA2943A5BBD561 /* KafkaRefreshDefaults.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		44A3B1A5D2C513F8FD238E3B64E4C6CF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB2C4B240E86247C30B2CC4A136555B /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46692A2E77157B00827182C8DC686F72 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3B1B1FD187C67429A58238DBE74F22 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48B561DD2F17D55C0FEAF816AB122C2D /* KafkaRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413764D9247685B7434E9EB856094FC /* KafkaRefreshControl.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4CE091F886EC6324673EFE0AEBBEA0FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B01CACCE28AC1619C531E9305CE84391 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		512C06CD5A0FF1A52886974B5E0A1EA5 /* KafkaCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C2DEB5BF065337ACC7E6B627E576F6 /* KafkaCategories.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5A5958D7B9CD21F33977551838464426 /* KafkaNativeHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6755B74AFFE979AA7FDD83B360959696 /* KafkaNativeHeader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5C5C77BBF83B793B82713296519751DA /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6FABCFEAE5EB43BED342CA081ED1C1 /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		65E88072A2BDC576BFC85E67EF9FBBC6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE83212B7DCBCA06B1A8CE0D1A28903 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68734B2FD4E55F9A95D5B416C075074A /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC6714AB8513581804FA23539FFB862 /* MASLayoutConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6A8C59DFA79088751EBB45D0F551471E /* KafkaReplicatorHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BEB792C8EC6347DF0F3439DA4539F5 /* KafkaReplicatorHeader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6C00F7833069A92BF647CBA6A409F26A /* UIScrollView+KafkaConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 12B72C58EA296BB3CB0C54F64196BC35 /* UIScrollView+KafkaConfiguration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71CF44B3ADF50D2090D26A5D24C4283C /* KafkaArrowHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 88434F43C81FC4DAEEB6DDA53D25DC88 /* KafkaArrowHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7CF2AC7A3B3ED03B30C1E4ED662B0551 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4BDC1FC1741D72064D3FA9708A1A0C /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81F811A56B6724F7E8E2D25364E595E3 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B8335F8C3044C1D3EB09D4A922AB4FE7 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		82926581AC97AA5CABF2E20D2F614E97 /* KafkaRingIndicatorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C51E587AB17EEBD001A8FE400124468 /* KafkaRingIndicatorHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8BB2B0B01AF0787B3D69A2E4259332C9 /* KafkaHeadRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D9F6601A1E59AFB8D93545D4A2632F /* KafkaHeadRefreshControl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E9AB7A281BF6A671B6CCDADB1B07BEC /* KafkaRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C301D60ECF2FCAC4436871E34AE72C1 /* KafkaRefreshControl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		91485F81F82828D4B2C5F68EB0D312CC /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = D79EAB7C5B3E418B2870659210B6578C /* UIView+Toast.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9194B58ACE900ED6BAE6AD92E24A2CFF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = F6B0292B6506EFF39565528C98362909 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92BF70E9D3285561EB404A7C4A4A6DEE /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 88622C9E3D67052A60DF982DC1726CDF /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9635353DDBD1D65B1598643B55493C04 /* KafkaReplicatorFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = E61992415B669D0A83D9E262BC6F592E /* KafkaReplicatorFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9B369AAD43832AEDBBDA8A0DF0856B4C /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E632FA963815C31DE04987FAE8137D69 /* MASCompositeConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A3307B8FB6EE0A049DBAE3AA4D2C6DA0 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F44DC2AEB1989BA624069BD6BB84E734 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A92EC11E4E29174DB5BEB2AF2C79D40D /* UIScrollView+KafkaRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E7872875F964992DB302797C908AEC /* UIScrollView+KafkaRefreshControl.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AE021260F7DA7735C7624864F18131BA /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = C0127B1248B30DC309C0FE945856902E /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AE535B19E9AB00FA32CF469248231135 /* KafkaReplicatorLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8925EBCAACA4EFC9F2ECDEBD5B0D06 /* KafkaReplicatorLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B20A0E5D8F9BCED1A82793C4BE9E7258 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 435C7A0CC7A20BD56596A8DEF10BB5B4 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B27762D0B9CCD695A3142E2EB8FEEFFD /* KafkaNativeFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F885EB634E0261056D34253113E5E93 /* KafkaNativeFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B5718EB28B60F9D1C9C13DDFE74887B7 /* UIScrollView+KafkaConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C12022932B302CB55C93DB5870E07C /* UIScrollView+KafkaConfiguration.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BD62CCCA0181D0A402D2E8EEA4B04044 /* KafkaArrowFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAE28A282959EA078A51A5A5186BC32 /* KafkaArrowFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BFD3AE8B7EB012A557389D20720F6236 /* KafkaRingIndicatorFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9816BC7E38BACA952E36DB6EE370F968 /* KafkaRingIndicatorFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C14EAA146CB1837FEAD56931A48F567C /* KafkaFootRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 38F6CF5E89CB8CF80DA6BDD56A780AC6 /* KafkaFootRefreshControl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C74D2E856ADC8139CD00DBD184061B23 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E16122EDE2181FDA78B33A65D9FD37AD /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C95D9BA92E4045AA8FBAB21D8FC215A3 /* KafkaRefreshDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 713298A712889C297E6E1D60806E7EFB /* KafkaRefreshDefaults.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D247B2B8270AC4E04637DB57223E3EBC /* KafkaRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A2ECACC10EADA47C550CC528EE523BF /* KafkaRefresh.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D348C7EC47FF3CF4E82F45EFA1892A1D /* KafkaHeadRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAB13185BD382EED636D027A11B4889 /* KafkaHeadRefreshControl.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D773B52DD89FC46102CCC18F7DFFA7F7 /* KafkaRingIndicatorFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 619B22CE055371735573741F123FB0C3 /* KafkaRingIndicatorFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D783A8A5A426DBF85162B92142651218 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 62180E722CB198BE72991F49E358820E /* MASConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D891CD7066DDE58068D67684211FD472 /* KafkaRefreshStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = E560717E588AD3AF9BC93F0A106E6E72 /* KafkaRefreshStyle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF7E1F32D8B27A515F959C87E680732B /* KafkaArcLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D24CFF52D143C818FFF7C1F8C64F33 /* KafkaArcLayer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E2C025911B612B4CA6FE2D7443E85E28 /* KafkaReplicatorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D27EA11DD6A301EC4B71C40B9E06983 /* KafkaReplicatorLayer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E6D47939750D95B8B9F9A832EB4C1081 /* KafkaNativeFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A12A748EC79A5679EB65F23A5035140 /* KafkaNativeFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E6E41A65CABC61D8FA45162F10B061B9 /* KafkaArrowFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BE34CC4FDC05BE694C0795F6FAFB4 /* KafkaArrowFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E76935CFF4AF327F8D9A7C1935F7D900 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4372FCBA20806A5F1416A3C414EAB150 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EAD8F595CEA91B9E0452B498370D1272 /* KafkaReplicatorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A0276D4C62A915FAEC293FD9A01DCA14 /* KafkaReplicatorHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB663E3E1EB4BB670DC29B77DB330135 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF6E966C6867D531FBE84C6FB6C873D /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED048CACD6D9DCD90BA78DF4B879029C /* UIScrollView+KafkaRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = D56588C6FE9F3BC1B76F8D261A64C0CA /* UIScrollView+KafkaRefreshControl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1B75048874B8773E5568E6D3ACA12E4 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B376EAC62C8CA4ADDEE8AF14C39920E /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F70E9530FBF6D6B438D472B605668B5A /* Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E078E70596A6EFE87E269A2AA77F358 /* Toast.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03F04D83587777611566DFC776ED46F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A80A4D6B185BA43BC06122FED0C15F94;
+			remoteInfo = Toast;
+		};
+		53388759ACE03AC452054C813207C777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E064E67BAAB46555CF0AC477B550A4EE;
+			remoteInfo = KafkaRefresh;
+		};
+		7E71540A0BEF982F30B9F90B55DA1FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B97B6D22DEC1130739FEC97DDC1B5D /* Pods-KOKO_Friend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KOKO_Friend.release.xcconfig"; sourceTree = "<group>"; };
+		02E7872875F964992DB302797C908AEC /* UIScrollView+KafkaRefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+KafkaRefreshControl.m"; path = "KafkaRefresh/Core/UIScrollView+KafkaRefreshControl.m"; sourceTree = "<group>"; };
+		032F69FDAFF1DC2AF3CC4F00545CC3DF /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		0413764D9247685B7434E9EB856094FC /* KafkaRefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaRefreshControl.m; path = KafkaRefresh/Core/KafkaRefreshControl.m; sourceTree = "<group>"; };
+		05565EAA1D926479FBB3023BE767694C /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		0A0BE34CC4FDC05BE694C0795F6FAFB4 /* KafkaArrowFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaArrowFooter.m; path = KafkaRefresh/UIKit/FootKit/KafkaArrowFooter.m; sourceTree = "<group>"; };
+		0BFBEA69962500C301EFD19F1C31D69C /* KafkaFootRefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaFootRefreshControl.m; path = KafkaRefresh/Core/KafkaFootRefreshControl.m; sourceTree = "<group>"; };
+		0F885EB634E0261056D34253113E5E93 /* KafkaNativeFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaNativeFooter.h; path = KafkaRefresh/UIKit/FootKit/KafkaNativeFooter.h; sourceTree = "<group>"; };
+		11E2BAC05ECFBB60E6A5153DC5395023 /* KafkaRefreshProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaRefreshProtocol.h; path = KafkaRefresh/Core/KafkaRefreshProtocol.h; sourceTree = "<group>"; };
+		12B72C58EA296BB3CB0C54F64196BC35 /* UIScrollView+KafkaConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+KafkaConfiguration.h"; path = "KafkaRefresh/Configuration/UIScrollView+KafkaConfiguration.h"; sourceTree = "<group>"; };
+		1A12A748EC79A5679EB65F23A5035140 /* KafkaNativeFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaNativeFooter.m; path = KafkaRefresh/UIKit/FootKit/KafkaNativeFooter.m; sourceTree = "<group>"; };
+		1E078E70596A6EFE87E269A2AA77F358 /* Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toast.h; path = "Toast-Framework/Toast.h"; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		27EEB336B51140D6481FC97A5810393A /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		2B98E34ED23058DB600AFEA611B0993B /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
+		2BF6E966C6867D531FBE84C6FB6C873D /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		2C301D60ECF2FCAC4436871E34AE72C1 /* KafkaRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaRefreshControl.h; path = KafkaRefresh/Core/KafkaRefreshControl.h; sourceTree = "<group>"; };
+		2E8925EBCAACA4EFC9F2ECDEBD5B0D06 /* KafkaReplicatorLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaReplicatorLayer.h; path = KafkaRefresh/UIKit/LayerKit/KafkaReplicatorLayer.h; sourceTree = "<group>"; };
+		38F6CF5E89CB8CF80DA6BDD56A780AC6 /* KafkaFootRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaFootRefreshControl.h; path = KafkaRefresh/Core/KafkaFootRefreshControl.h; sourceTree = "<group>"; };
+		3C0B28A09B5A35DEF1F0F679B6BBED2A /* Pods-KOKO_Friend-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KOKO_Friend-resources.sh"; sourceTree = "<group>"; };
+		3C51E587AB17EEBD001A8FE400124468 /* KafkaRingIndicatorHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaRingIndicatorHeader.h; path = KafkaRefresh/UIKit/HeadKit/KafkaRingIndicatorHeader.h; sourceTree = "<group>"; };
+		40B0B719C0CBC3176873E8474521E276 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		435C7A0CC7A20BD56596A8DEF10BB5B4 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		4372FCBA20806A5F1416A3C414EAB150 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		4812A7E3CE37A3258EA8347B97102DD4 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		49C2DEB5BF065337ACC7E6B627E576F6 /* KafkaCategories.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaCategories.m; path = KafkaRefresh/Category/KafkaCategories.m; sourceTree = "<group>"; };
+		542D4DCE10D9671DB13AE08BA87485DA /* Toast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.xcconfig; sourceTree = "<group>"; };
+		55E0AFD333353D71ACC2207149E879D6 /* libToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libToast.a; path = libToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		56AA46CAB598D5E0B957D3A590A7748D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		5CAE28A282959EA078A51A5A5186BC32 /* KafkaArrowFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaArrowFooter.h; path = KafkaRefresh/UIKit/FootKit/KafkaArrowFooter.h; sourceTree = "<group>"; };
+		5E7E88381D23988B1913C085BB0B1642 /* Image.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Image.bundle; path = KafkaRefresh/Resource/Image.bundle; sourceTree = "<group>"; };
+		5EEB4912EEE27BCEFD0DD26A839AC6D3 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		619B22CE055371735573741F123FB0C3 /* KafkaRingIndicatorFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaRingIndicatorFooter.h; path = KafkaRefresh/UIKit/FootKit/KafkaRingIndicatorFooter.h; sourceTree = "<group>"; };
+		62180E722CB198BE72991F49E358820E /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		63C63BFF987D73014D5D565AA01D04CD /* KafkaRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KafkaRefresh-prefix.pch"; sourceTree = "<group>"; };
+		65FA45D7E1791A4DA939573645C1F462 /* libKafkaRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKafkaRefresh.a; path = libKafkaRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6755B74AFFE979AA7FDD83B360959696 /* KafkaNativeHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaNativeHeader.m; path = KafkaRefresh/UIKit/HeadKit/KafkaNativeHeader.m; sourceTree = "<group>"; };
+		6C4BDC1FC1741D72064D3FA9708A1A0C /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		6CB2C4B240E86247C30B2CC4A136555B /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		6D27EA11DD6A301EC4B71C40B9E06983 /* KafkaReplicatorLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaReplicatorLayer.m; path = KafkaRefresh/UIKit/LayerKit/KafkaReplicatorLayer.m; sourceTree = "<group>"; };
+		713298A712889C297E6E1D60806E7EFB /* KafkaRefreshDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaRefreshDefaults.m; path = KafkaRefresh/Default/KafkaRefreshDefaults.m; sourceTree = "<group>"; };
+		73D5A6A38B801F31E7774880B2318439 /* KafkaCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaCategories.h; path = KafkaRefresh/Category/KafkaCategories.h; sourceTree = "<group>"; };
+		7E3B1B1FD187C67429A58238DBE74F22 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		82E9A55487A07B681E7B6C4D19AA85DD /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
+		8454A0BF2A8A7EC4A65CB734FE3E546B /* KafkaNativeHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaNativeHeader.h; path = KafkaRefresh/UIKit/HeadKit/KafkaNativeHeader.h; sourceTree = "<group>"; };
+		87C12022932B302CB55C93DB5870E07C /* UIScrollView+KafkaConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+KafkaConfiguration.m"; path = "KafkaRefresh/Configuration/UIScrollView+KafkaConfiguration.m"; sourceTree = "<group>"; };
+		88434F43C81FC4DAEEB6DDA53D25DC88 /* KafkaArrowHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaArrowHeader.h; path = KafkaRefresh/UIKit/HeadKit/KafkaArrowHeader.h; sourceTree = "<group>"; };
+		88622C9E3D67052A60DF982DC1726CDF /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		8DC3ECB8533CF76A4669C9456DD3E9A7 /* KafkaAnimatableProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaAnimatableProtocol.h; path = KafkaRefresh/UIKit/LayerKit/KafkaAnimatableProtocol.h; sourceTree = "<group>"; };
+		95469F594D42CFD5A16BCC42A74CF33C /* KafkaReplicatorFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaReplicatorFooter.m; path = KafkaRefresh/UIKit/FootKit/KafkaReplicatorFooter.m; sourceTree = "<group>"; };
+		9816BC7E38BACA952E36DB6EE370F968 /* KafkaRingIndicatorFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaRingIndicatorFooter.m; path = KafkaRefresh/UIKit/FootKit/KafkaRingIndicatorFooter.m; sourceTree = "<group>"; };
+		9A2ECACC10EADA47C550CC528EE523BF /* KafkaRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaRefresh.h; path = KafkaRefresh/KafkaRefresh.h; sourceTree = "<group>"; };
+		9A335F82C97CF5161C3D969D650B0DE8 /* KafkaRingIndicatorHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaRingIndicatorHeader.m; path = KafkaRefresh/UIKit/HeadKit/KafkaRingIndicatorHeader.m; sourceTree = "<group>"; };
+		9A3BB14E756AFF656DECEBF45559E617 /* KafkaRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KafkaRefresh-dummy.m"; sourceTree = "<group>"; };
+		9B376EAC62C8CA4ADDEE8AF14C39920E /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0276D4C62A915FAEC293FD9A01DCA14 /* KafkaReplicatorHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaReplicatorHeader.h; path = KafkaRefresh/UIKit/HeadKit/KafkaReplicatorHeader.h; sourceTree = "<group>"; };
+		A3D24CFF52D143C818FFF7C1F8C64F33 /* KafkaArcLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaArcLayer.m; path = KafkaRefresh/UIKit/LayerKit/KafkaArcLayer.m; sourceTree = "<group>"; };
+		A4D9F6601A1E59AFB8D93545D4A2632F /* KafkaHeadRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaHeadRefreshControl.h; path = KafkaRefresh/Core/KafkaHeadRefreshControl.h; sourceTree = "<group>"; };
+		A608D9995D01232DF25A4F12F9387329 /* Pods-KOKO_Friend-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KOKO_Friend-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6FDEEFE651FFD5F04004DD2C54822E7 /* Pods-KOKO_Friend-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KOKO_Friend-acknowledgements.plist"; sourceTree = "<group>"; };
+		AAE83212B7DCBCA06B1A8CE0D1A28903 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		B01CACCE28AC1619C531E9305CE84391 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		B8335F8C3044C1D3EB09D4A922AB4FE7 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		BA711C59D86476531F906AA68FE66DD5 /* Pods-KOKO_Friend-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KOKO_Friend-dummy.m"; sourceTree = "<group>"; };
+		BCC6714AB8513581804FA23539FFB862 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		C0127B1248B30DC309C0FE945856902E /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/UIView+Toast.m"; sourceTree = "<group>"; };
+		C4D2088E93B4D50C82303C5815A0885F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		CBB0D029BDB179AB3408FDC2A5B5558E /* KafkaArrowHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaArrowHeader.m; path = KafkaRefresh/UIKit/HeadKit/KafkaArrowHeader.m; sourceTree = "<group>"; };
+		CC2E5ECD3E9FC55DAC23C9350878EB7F /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		CDAB13185BD382EED636D027A11B4889 /* KafkaHeadRefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaHeadRefreshControl.m; path = KafkaRefresh/Core/KafkaHeadRefreshControl.m; sourceTree = "<group>"; };
+		D0826218F04EB006A3BA2943A5BBD561 /* KafkaRefreshDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaRefreshDefaults.h; path = KafkaRefresh/Default/KafkaRefreshDefaults.h; sourceTree = "<group>"; };
+		D1C1B7E3D44849286CCDB57A9A9AE653 /* KafkaRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KafkaRefresh.xcconfig; sourceTree = "<group>"; };
+		D4395E443E527E673293186F68CACC11 /* libPods-KOKO_Friend.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KOKO_Friend.a"; path = "libPods-KOKO_Friend.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56588C6FE9F3BC1B76F8D261A64C0CA /* UIScrollView+KafkaRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+KafkaRefreshControl.h"; path = "KafkaRefresh/Core/UIScrollView+KafkaRefreshControl.h"; sourceTree = "<group>"; };
+		D5BEB792C8EC6347DF0F3439DA4539F5 /* KafkaReplicatorHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KafkaReplicatorHeader.m; path = KafkaRefresh/UIKit/HeadKit/KafkaReplicatorHeader.m; sourceTree = "<group>"; };
+		D79EAB7C5B3E418B2870659210B6578C /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/UIView+Toast.h"; sourceTree = "<group>"; };
+		DF450E3D584DF19E635AB6B0D7C01687 /* Pods-KOKO_Friend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KOKO_Friend.debug.xcconfig"; sourceTree = "<group>"; };
+		E16122EDE2181FDA78B33A65D9FD37AD /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		E45D4ECF73990261154A08A45293AA60 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		E560717E588AD3AF9BC93F0A106E6E72 /* KafkaRefreshStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaRefreshStyle.h; path = KafkaRefresh/Style/KafkaRefreshStyle.h; sourceTree = "<group>"; };
+		E61992415B669D0A83D9E262BC6F592E /* KafkaReplicatorFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaReplicatorFooter.h; path = KafkaRefresh/UIKit/FootKit/KafkaReplicatorFooter.h; sourceTree = "<group>"; };
+		E632FA963815C31DE04987FAE8137D69 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		F44DC2AEB1989BA624069BD6BB84E734 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F68F15221F5C28E7C4E20FC582CF349B /* KafkaArcLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KafkaArcLayer.h; path = KafkaRefresh/UIKit/LayerKit/KafkaArcLayer.h; sourceTree = "<group>"; };
+		F6B0292B6506EFF39565528C98362909 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		FA6FABCFEAE5EB43BED342CA081ED1C1 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01095FBE532CF5AA0855A20BDA54BF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082C5E5AA7C179D595124B1F830A54A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE05C966DB7FCADADF6C3CF7C0A7DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4765A85DF1BCEE5A717E61277C5D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E657EB096014824132BDA735B84B34 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				D0826218F04EB006A3BA2943A5BBD561 /* KafkaRefreshDefaults.h */,
+				713298A712889C297E6E1D60806E7EFB /* KafkaRefreshDefaults.m */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		0719C33F2A37DF9B5660E9CD8D7EAADF /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				40EB6B7994E3247F462034CE9C587F0A /* FootKit */,
+				D96EB8EBCE13BED4062EFAFADC4ABFEC /* HeadKit */,
+				4E87C61FAF52CB258D33138D200B03D4 /* LayerKit */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		0BDAF7114428836CE000DCBEFC306CDF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E45D4ECF73990261154A08A45293AA60 /* Masonry.xcconfig */,
+				40B0B719C0CBC3176873E8474521E276 /* Masonry-dummy.m */,
+				27EEB336B51140D6481FC97A5810393A /* Masonry-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		26D05705D13B12A82ACF22CEAFB6BB07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E7E88381D23988B1913C085BB0B1642 /* Image.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		28A0D107D22B122501891D414C4F2155 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C05E669634608D14F3E65DA7F9E83248 /* Pods-KOKO_Friend */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3A3FC9E6062393D9BEF4E63A77EBE0E7 /* KafkaRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				9A2ECACC10EADA47C550CC528EE523BF /* KafkaRefresh.h */,
+				A4CE9A0046E6DB0D3D9DD952F7F8A861 /* Category */,
+				610C934A188D73BD1302477377473901 /* Configuration */,
+				A2780D690C93F0A93284DFE88DE54D03 /* Core */,
+				03E657EB096014824132BDA735B84B34 /* Default */,
+				26D05705D13B12A82ACF22CEAFB6BB07 /* Resources */,
+				C3D32AAB712606086DA9E2108B2525D9 /* Style */,
+				6605087BE9C8A98ABD08B4D24AFBE965 /* Support Files */,
+				0719C33F2A37DF9B5660E9CD8D7EAADF /* UIKit */,
+			);
+			name = KafkaRefresh;
+			path = KafkaRefresh;
+			sourceTree = "<group>";
+		};
+		3B1AA6C5C55AD3B5E81FC49F008C339B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				542D4DCE10D9671DB13AE08BA87485DA /* Toast.xcconfig */,
+				82E9A55487A07B681E7B6C4D19AA85DD /* Toast-dummy.m */,
+				2B98E34ED23058DB600AFEA611B0993B /* Toast-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast";
+			sourceTree = "<group>";
+		};
+		40EB6B7994E3247F462034CE9C587F0A /* FootKit */ = {
+			isa = PBXGroup;
+			children = (
+				5CAE28A282959EA078A51A5A5186BC32 /* KafkaArrowFooter.h */,
+				0A0BE34CC4FDC05BE694C0795F6FAFB4 /* KafkaArrowFooter.m */,
+				0F885EB634E0261056D34253113E5E93 /* KafkaNativeFooter.h */,
+				1A12A748EC79A5679EB65F23A5035140 /* KafkaNativeFooter.m */,
+				E61992415B669D0A83D9E262BC6F592E /* KafkaReplicatorFooter.h */,
+				95469F594D42CFD5A16BCC42A74CF33C /* KafkaReplicatorFooter.m */,
+				619B22CE055371735573741F123FB0C3 /* KafkaRingIndicatorFooter.h */,
+				9816BC7E38BACA952E36DB6EE370F968 /* KafkaRingIndicatorFooter.m */,
+			);
+			name = FootKit;
+			sourceTree = "<group>";
+		};
+		476B6D306DC73771A01909735307E580 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				1E078E70596A6EFE87E269A2AA77F358 /* Toast.h */,
+				D79EAB7C5B3E418B2870659210B6578C /* UIView+Toast.h */,
+				C0127B1248B30DC309C0FE945856902E /* UIView+Toast.m */,
+				3B1AA6C5C55AD3B5E81FC49F008C339B /* Support Files */,
+			);
+			name = Toast;
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		4E87C61FAF52CB258D33138D200B03D4 /* LayerKit */ = {
+			isa = PBXGroup;
+			children = (
+				8DC3ECB8533CF76A4669C9456DD3E9A7 /* KafkaAnimatableProtocol.h */,
+				F68F15221F5C28E7C4E20FC582CF349B /* KafkaArcLayer.h */,
+				A3D24CFF52D143C818FFF7C1F8C64F33 /* KafkaArcLayer.m */,
+				2E8925EBCAACA4EFC9F2ECDEBD5B0D06 /* KafkaReplicatorLayer.h */,
+				6D27EA11DD6A301EC4B71C40B9E06983 /* KafkaReplicatorLayer.m */,
+			);
+			name = LayerKit;
+			sourceTree = "<group>";
+		};
+		610C934A188D73BD1302477377473901 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				12B72C58EA296BB3CB0C54F64196BC35 /* UIScrollView+KafkaConfiguration.h */,
+				87C12022932B302CB55C93DB5870E07C /* UIScrollView+KafkaConfiguration.m */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		6605087BE9C8A98ABD08B4D24AFBE965 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1C1B7E3D44849286CCDB57A9A9AE653 /* KafkaRefresh.xcconfig */,
+				9A3BB14E756AFF656DECEBF45559E617 /* KafkaRefresh-dummy.m */,
+				63C63BFF987D73014D5D565AA01D04CD /* KafkaRefresh-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KafkaRefresh";
+			sourceTree = "<group>";
+		};
+		84C03619D9CD996D5FC309855BF3852C /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				88622C9E3D67052A60DF982DC1726CDF /* MASCompositeConstraint.h */,
+				E632FA963815C31DE04987FAE8137D69 /* MASCompositeConstraint.m */,
+				2BF6E966C6867D531FBE84C6FB6C873D /* MASConstraint.h */,
+				62180E722CB198BE72991F49E358820E /* MASConstraint.m */,
+				B01CACCE28AC1619C531E9305CE84391 /* MASConstraint+Private.h */,
+				F6B0292B6506EFF39565528C98362909 /* MASConstraintMaker.h */,
+				4812A7E3CE37A3258EA8347B97102DD4 /* MASConstraintMaker.m */,
+				6C4BDC1FC1741D72064D3FA9708A1A0C /* MASLayoutConstraint.h */,
+				BCC6714AB8513581804FA23539FFB862 /* MASLayoutConstraint.m */,
+				435C7A0CC7A20BD56596A8DEF10BB5B4 /* Masonry.h */,
+				AAE83212B7DCBCA06B1A8CE0D1A28903 /* MASUtilities.h */,
+				05565EAA1D926479FBB3023BE767694C /* MASViewAttribute.h */,
+				56AA46CAB598D5E0B957D3A590A7748D /* MASViewAttribute.m */,
+				5EEB4912EEE27BCEFD0DD26A839AC6D3 /* MASViewConstraint.h */,
+				CC2E5ECD3E9FC55DAC23C9350878EB7F /* MASViewConstraint.m */,
+				9B376EAC62C8CA4ADDEE8AF14C39920E /* NSArray+MASAdditions.h */,
+				032F69FDAFF1DC2AF3CC4F00545CC3DF /* NSArray+MASAdditions.m */,
+				B8335F8C3044C1D3EB09D4A922AB4FE7 /* NSArray+MASShorthandAdditions.h */,
+				E16122EDE2181FDA78B33A65D9FD37AD /* NSLayoutConstraint+MASDebugAdditions.h */,
+				6CB2C4B240E86247C30B2CC4A136555B /* NSLayoutConstraint+MASDebugAdditions.m */,
+				7E3B1B1FD187C67429A58238DBE74F22 /* View+MASAdditions.h */,
+				C4D2088E93B4D50C82303C5815A0885F /* View+MASAdditions.m */,
+				F44DC2AEB1989BA624069BD6BB84E734 /* View+MASShorthandAdditions.h */,
+				4372FCBA20806A5F1416A3C414EAB150 /* ViewController+MASAdditions.h */,
+				FA6FABCFEAE5EB43BED342CA081ED1C1 /* ViewController+MASAdditions.m */,
+				0BDAF7114428836CE000DCBEFC306CDF /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		A2780D690C93F0A93284DFE88DE54D03 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				38F6CF5E89CB8CF80DA6BDD56A780AC6 /* KafkaFootRefreshControl.h */,
+				0BFBEA69962500C301EFD19F1C31D69C /* KafkaFootRefreshControl.m */,
+				A4D9F6601A1E59AFB8D93545D4A2632F /* KafkaHeadRefreshControl.h */,
+				CDAB13185BD382EED636D027A11B4889 /* KafkaHeadRefreshControl.m */,
+				2C301D60ECF2FCAC4436871E34AE72C1 /* KafkaRefreshControl.h */,
+				0413764D9247685B7434E9EB856094FC /* KafkaRefreshControl.m */,
+				11E2BAC05ECFBB60E6A5153DC5395023 /* KafkaRefreshProtocol.h */,
+				D56588C6FE9F3BC1B76F8D261A64C0CA /* UIScrollView+KafkaRefreshControl.h */,
+				02E7872875F964992DB302797C908AEC /* UIScrollView+KafkaRefreshControl.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		A4CE9A0046E6DB0D3D9DD952F7F8A861 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				73D5A6A38B801F31E7774880B2318439 /* KafkaCategories.h */,
+				49C2DEB5BF065337ACC7E6B627E576F6 /* KafkaCategories.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		BC17709AAE9AE3B5F64F2BFA9E9BC6BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65FA45D7E1791A4DA939573645C1F462 /* libKafkaRefresh.a */,
+				1FFED36A657123030ABB700256D73F15 /* libMasonry.a */,
+				D4395E443E527E673293186F68CACC11 /* libPods-KOKO_Friend.a */,
+				55E0AFD333353D71ACC2207149E879D6 /* libToast.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C05E669634608D14F3E65DA7F9E83248 /* Pods-KOKO_Friend */ = {
+			isa = PBXGroup;
+			children = (
+				A608D9995D01232DF25A4F12F9387329 /* Pods-KOKO_Friend-acknowledgements.markdown */,
+				A6FDEEFE651FFD5F04004DD2C54822E7 /* Pods-KOKO_Friend-acknowledgements.plist */,
+				BA711C59D86476531F906AA68FE66DD5 /* Pods-KOKO_Friend-dummy.m */,
+				3C0B28A09B5A35DEF1F0F679B6BBED2A /* Pods-KOKO_Friend-resources.sh */,
+				DF450E3D584DF19E635AB6B0D7C01687 /* Pods-KOKO_Friend.debug.xcconfig */,
+				01B97B6D22DEC1130739FEC97DDC1B5D /* Pods-KOKO_Friend.release.xcconfig */,
+			);
+			name = "Pods-KOKO_Friend";
+			path = "Target Support Files/Pods-KOKO_Friend";
+			sourceTree = "<group>";
+		};
+		C3D32AAB712606086DA9E2108B2525D9 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				E560717E588AD3AF9BC93F0A106E6E72 /* KafkaRefreshStyle.h */,
+			);
+			name = Style;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				D5A189DFC2E2DC21F6CF6C56826122B3 /* Pods */,
+				BC17709AAE9AE3B5F64F2BFA9E9BC6BB /* Products */,
+				28A0D107D22B122501891D414C4F2155 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D5A189DFC2E2DC21F6CF6C56826122B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A3FC9E6062393D9BEF4E63A77EBE0E7 /* KafkaRefresh */,
+				84C03619D9CD996D5FC309855BF3852C /* Masonry */,
+				476B6D306DC73771A01909735307E580 /* Toast */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D96EB8EBCE13BED4062EFAFADC4ABFEC /* HeadKit */ = {
+			isa = PBXGroup;
+			children = (
+				88434F43C81FC4DAEEB6DDA53D25DC88 /* KafkaArrowHeader.h */,
+				CBB0D029BDB179AB3408FDC2A5B5558E /* KafkaArrowHeader.m */,
+				8454A0BF2A8A7EC4A65CB734FE3E546B /* KafkaNativeHeader.h */,
+				6755B74AFFE979AA7FDD83B360959696 /* KafkaNativeHeader.m */,
+				A0276D4C62A915FAEC293FD9A01DCA14 /* KafkaReplicatorHeader.h */,
+				D5BEB792C8EC6347DF0F3439DA4539F5 /* KafkaReplicatorHeader.m */,
+				3C51E587AB17EEBD001A8FE400124468 /* KafkaRingIndicatorHeader.h */,
+				9A335F82C97CF5161C3D969D650B0DE8 /* KafkaRingIndicatorHeader.m */,
+			);
+			name = HeadKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2697A8D6B2989B073B236F7B4BF67F30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BF70E9D3285561EB404A7C4A4A6DEE /* MASCompositeConstraint.h in Headers */,
+				4CE091F886EC6324673EFE0AEBBEA0FE /* MASConstraint+Private.h in Headers */,
+				EB663E3E1EB4BB670DC29B77DB330135 /* MASConstraint.h in Headers */,
+				9194B58ACE900ED6BAE6AD92E24A2CFF /* MASConstraintMaker.h in Headers */,
+				7CF2AC7A3B3ED03B30C1E4ED662B0551 /* MASLayoutConstraint.h in Headers */,
+				B20A0E5D8F9BCED1A82793C4BE9E7258 /* Masonry.h in Headers */,
+				65E88072A2BDC576BFC85E67EF9FBBC6 /* MASUtilities.h in Headers */,
+				42947699890A199B08A896144A878D80 /* MASViewAttribute.h in Headers */,
+				115ACCE253A886181B55773DDC70D6ED /* MASViewConstraint.h in Headers */,
+				F1B75048874B8773E5568E6D3ACA12E4 /* NSArray+MASAdditions.h in Headers */,
+				81F811A56B6724F7E8E2D25364E595E3 /* NSArray+MASShorthandAdditions.h in Headers */,
+				C74D2E856ADC8139CD00DBD184061B23 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				46692A2E77157B00827182C8DC686F72 /* View+MASAdditions.h in Headers */,
+				A3307B8FB6EE0A049DBAE3AA4D2C6DA0 /* View+MASShorthandAdditions.h in Headers */,
+				E76935CFF4AF327F8D9A7C1935F7D900 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B8DE2570B21315CBFDAD1992C0C191 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E653C76218BDE3A2D2392B30CB1BAB /* KafkaAnimatableProtocol.h in Headers */,
+				2A4A4DA52656A30DBF59958B68F44C4A /* KafkaArcLayer.h in Headers */,
+				BD62CCCA0181D0A402D2E8EEA4B04044 /* KafkaArrowFooter.h in Headers */,
+				71CF44B3ADF50D2090D26A5D24C4283C /* KafkaArrowHeader.h in Headers */,
+				2DEB85A0A313F417A3C2DFC264614115 /* KafkaCategories.h in Headers */,
+				C14EAA146CB1837FEAD56931A48F567C /* KafkaFootRefreshControl.h in Headers */,
+				8BB2B0B01AF0787B3D69A2E4259332C9 /* KafkaHeadRefreshControl.h in Headers */,
+				B27762D0B9CCD695A3142E2EB8FEEFFD /* KafkaNativeFooter.h in Headers */,
+				2A464007A676FFE499A32A79F3AFDC35 /* KafkaNativeHeader.h in Headers */,
+				D247B2B8270AC4E04637DB57223E3EBC /* KafkaRefresh.h in Headers */,
+				8E9AB7A281BF6A671B6CCDADB1B07BEC /* KafkaRefreshControl.h in Headers */,
+				44704850C26C28F4992FCF94DD4FB0B0 /* KafkaRefreshDefaults.h in Headers */,
+				350A16C4803F785CED9BDA5FBACB63FA /* KafkaRefreshProtocol.h in Headers */,
+				D891CD7066DDE58068D67684211FD472 /* KafkaRefreshStyle.h in Headers */,
+				9635353DDBD1D65B1598643B55493C04 /* KafkaReplicatorFooter.h in Headers */,
+				EAD8F595CEA91B9E0452B498370D1272 /* KafkaReplicatorHeader.h in Headers */,
+				AE535B19E9AB00FA32CF469248231135 /* KafkaReplicatorLayer.h in Headers */,
+				D773B52DD89FC46102CCC18F7DFFA7F7 /* KafkaRingIndicatorFooter.h in Headers */,
+				82926581AC97AA5CABF2E20D2F614E97 /* KafkaRingIndicatorHeader.h in Headers */,
+				6C00F7833069A92BF647CBA6A409F26A /* UIScrollView+KafkaConfiguration.h in Headers */,
+				ED048CACD6D9DCD90BA78DF4B879029C /* UIScrollView+KafkaRefreshControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC074F05CC2D724930A5A664A611993 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70E9530FBF6D6B438D472B605668B5A /* Toast.h in Headers */,
+				91485F81F82828D4B2C5F68EB0D312CC /* UIView+Toast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4CC7186E03D57E58D47CBF91A0DED42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1744F3C5557A761FDFD78C1978B58DE5 /* Pods-KOKO_Friend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E06EC3459AF1409E3FC3FE5C2B398AE /* Build configuration list for PBXNativeTarget "Pods-KOKO_Friend" */;
+			buildPhases = (
+				E4CC7186E03D57E58D47CBF91A0DED42 /* Headers */,
+				629A34FF78407F86FF43F3B304051D14 /* Sources */,
+				BAE05C966DB7FCADADF6C3CF7C0A7DF3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5D08394C873F2EBC60F4F1645BD625 /* PBXTargetDependency */,
+				9EE609B59BCAAF201FD812BDADAD9964 /* PBXTargetDependency */,
+				4A019D25D1F16806E0D427E7D376A634 /* PBXTargetDependency */,
+			);
+			name = "Pods-KOKO_Friend";
+			productName = "Pods-KOKO_Friend";
+			productReference = D4395E443E527E673293186F68CACC11 /* libPods-KOKO_Friend.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B9F7EAACDDA564EC328F53A4AB8CF85 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				2697A8D6B2989B073B236F7B4BF67F30 /* Headers */,
+				03D7E07BDB85EF20B683BD1CD95C9197 /* Sources */,
+				01095FBE532CF5AA0855A20BDA54BF0B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A80A4D6B185BA43BC06122FED0C15F94 /* Toast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6185C5F441A7B22CBFE3CB0B9144DB5 /* Build configuration list for PBXNativeTarget "Toast" */;
+			buildPhases = (
+				CBC074F05CC2D724930A5A664A611993 /* Headers */,
+				6DFE5AE0DE960777F2B882A4ABD61256 /* Sources */,
+				082C5E5AA7C179D595124B1F830A54A3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toast;
+			productName = Toast;
+			productReference = 55E0AFD333353D71ACC2207149E879D6 /* libToast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E064E67BAAB46555CF0AC477B550A4EE /* KafkaRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952BE1E9C78E2495E519E9B956A3CC60 /* Build configuration list for PBXNativeTarget "KafkaRefresh" */;
+			buildPhases = (
+				31B8DE2570B21315CBFDAD1992C0C191 /* Headers */,
+				083F5F7149B3F5D2F3DE3C9F0C8EA422 /* Sources */,
+				EE4765A85DF1BCEE5A717E61277C5D7E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KafkaRefresh;
+			productName = KafkaRefresh;
+			productReference = 65FA45D7E1791A4DA939573645C1F462 /* libKafkaRefresh.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BC17709AAE9AE3B5F64F2BFA9E9BC6BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E064E67BAAB46555CF0AC477B550A4EE /* KafkaRefresh */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				1744F3C5557A761FDFD78C1978B58DE5 /* Pods-KOKO_Friend */,
+				A80A4D6B185BA43BC06122FED0C15F94 /* Toast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03D7E07BDB85EF20B683BD1CD95C9197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B369AAD43832AEDBBDA8A0DF0856B4C /* MASCompositeConstraint.m in Sources */,
+				D783A8A5A426DBF85162B92142651218 /* MASConstraint.m in Sources */,
+				181B2691FF506F26F7F71F711C724B81 /* MASConstraintMaker.m in Sources */,
+				68734B2FD4E55F9A95D5B416C075074A /* MASLayoutConstraint.m in Sources */,
+				3430321D06CBCF49F5A7DF6A70D9BB91 /* Masonry-dummy.m in Sources */,
+				2E5F3B41BD51ACE4EE3B422BB67E51DF /* MASViewAttribute.m in Sources */,
+				31064475EC704EC31BC3E2DE0DAFC72C /* MASViewConstraint.m in Sources */,
+				20E2F8001CC8A41A0E1B50694BE7875D /* NSArray+MASAdditions.m in Sources */,
+				44A3B1A5D2C513F8FD238E3B64E4C6CF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				390E8375B19FF12764C5AA730AF0F0F4 /* View+MASAdditions.m in Sources */,
+				5C5C77BBF83B793B82713296519751DA /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083F5F7149B3F5D2F3DE3C9F0C8EA422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7E1F32D8B27A515F959C87E680732B /* KafkaArcLayer.m in Sources */,
+				E6E41A65CABC61D8FA45162F10B061B9 /* KafkaArrowFooter.m in Sources */,
+				2D6C7706F5638BD982C7856CC3CA696A /* KafkaArrowHeader.m in Sources */,
+				512C06CD5A0FF1A52886974B5E0A1EA5 /* KafkaCategories.m in Sources */,
+				0C811EB603FCFF7AFAC9353AEED04DD6 /* KafkaFootRefreshControl.m in Sources */,
+				D348C7EC47FF3CF4E82F45EFA1892A1D /* KafkaHeadRefreshControl.m in Sources */,
+				E6D47939750D95B8B9F9A832EB4C1081 /* KafkaNativeFooter.m in Sources */,
+				5A5958D7B9CD21F33977551838464426 /* KafkaNativeHeader.m in Sources */,
+				1E8303E0135CFBDE24C1C30EE4959B1C /* KafkaRefresh-dummy.m in Sources */,
+				48B561DD2F17D55C0FEAF816AB122C2D /* KafkaRefreshControl.m in Sources */,
+				C95D9BA92E4045AA8FBAB21D8FC215A3 /* KafkaRefreshDefaults.m in Sources */,
+				20A8ED7856056168D597D1EB9580078D /* KafkaReplicatorFooter.m in Sources */,
+				6A8C59DFA79088751EBB45D0F551471E /* KafkaReplicatorHeader.m in Sources */,
+				E2C025911B612B4CA6FE2D7443E85E28 /* KafkaReplicatorLayer.m in Sources */,
+				BFD3AE8B7EB012A557389D20720F6236 /* KafkaRingIndicatorFooter.m in Sources */,
+				19C2DF04EDC613C52E2A964AC0403A23 /* KafkaRingIndicatorHeader.m in Sources */,
+				B5718EB28B60F9D1C9C13DDFE74887B7 /* UIScrollView+KafkaConfiguration.m in Sources */,
+				A92EC11E4E29174DB5BEB2AF2C79D40D /* UIScrollView+KafkaRefreshControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629A34FF78407F86FF43F3B304051D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D26B819A8ED600DE1B3C94E5A05EB3 /* Pods-KOKO_Friend-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DFE5AE0DE960777F2B882A4ABD61256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186C10CA854A809E355B67E5B42CD597 /* Toast-dummy.m in Sources */,
+				AE021260F7DA7735C7624864F18131BA /* UIView+Toast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A019D25D1F16806E0D427E7D376A634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toast;
+			target = A80A4D6B185BA43BC06122FED0C15F94 /* Toast */;
+			targetProxy = 03F04D83587777611566DFC776ED46F0 /* PBXContainerItemProxy */;
+		};
+		9EE609B59BCAAF201FD812BDADAD9964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 7E71540A0BEF982F30B9F90B55DA1FFD /* PBXContainerItemProxy */;
+		};
+		FB5D08394C873F2EBC60F4F1645BD625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KafkaRefresh;
+			target = E064E67BAAB46555CF0AC477B550A4EE /* KafkaRefresh */;
+			targetProxy = 53388759ACE03AC452054C813207C777 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DEE46354A98A1D607465D2703CF14DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 542D4DCE10D9671DB13AE08BA87485DA /* Toast.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Toast;
+				PRODUCT_NAME = Toast;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2864B8151371217E5A22C6412F492423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45D4ECF73990261154A08A45293AA60 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D61DC43C7DC2F90C295C51D66EEE358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45D4ECF73990261154A08A45293AA60 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8FBA059499C4DA340A54867BE9C65C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C1B7E3D44849286CCDB57A9A9AE653 /* KafkaRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KafkaRefresh/KafkaRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KafkaRefresh;
+				PRODUCT_NAME = KafkaRefresh;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9A9EF47A440F6D3EA53069DBA1B4B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF450E3D584DF19E635AB6B0D7C01687 /* Pods-KOKO_Friend.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C12C8DAF7282B7EA29638B1AD1335A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C1B7E3D44849286CCDB57A9A9AE653 /* KafkaRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KafkaRefresh/KafkaRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KafkaRefresh;
+				PRODUCT_NAME = KafkaRefresh;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFCDE9AB80BBD17BC932981402F7FABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B97B6D22DEC1130739FEC97DDC1B5D /* Pods-KOKO_Friend.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F56A5E16A45FCF0DBCDAC50546B9B1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 542D4DCE10D9671DB13AE08BA87485DA /* Toast.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Toast;
+				PRODUCT_NAME = Toast;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B9F7EAACDDA564EC328F53A4AB8CF85 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D61DC43C7DC2F90C295C51D66EEE358 /* Debug */,
+				2864B8151371217E5A22C6412F492423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E06EC3459AF1409E3FC3FE5C2B398AE /* Build configuration list for PBXNativeTarget "Pods-KOKO_Friend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A9EF47A440F6D3EA53069DBA1B4B71 /* Debug */,
+				EFCDE9AB80BBD17BC932981402F7FABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952BE1E9C78E2495E519E9B956A3CC60 /* Build configuration list for PBXNativeTarget "KafkaRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBA059499C4DA340A54867BE9C65C26 /* Debug */,
+				C12C8DAF7282B7EA29638B1AD1335A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6185C5F441A7B22CBFE3CB0B9144DB5 /* Build configuration list for PBXNativeTarget "Toast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DEE46354A98A1D607465D2703CF14DA /* Debug */,
+				F56A5E16A45FCF0DBCDAC50546B9B1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
